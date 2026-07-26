@@ -122,11 +122,6 @@ console.log("Math random, its create random number in bewtween 0 to 1=>", Math.r
 let otp = Math.floor(Math.random()*999999+100000);
 console.log("otp=>", otp);
 
-
-
-
-
-
 // how to combile both array without using inbuild methods
 let arr1 = [1, 2, 3, 4];
 let arr2 = [5, 6, 7, 8];
