@@ -18,10 +18,11 @@ console.log("Sum of 10 and 20 is => " + (a1 + b1)); // output will be 30 because
 console.log(a1 + b1 + " is Sum of 10 and 20"); // output will be 30 because its adding first both numbers then concanting with string
 
 // type coercion => + operator use for additon and concatation, but other operator have only one work so its convert string in number and preform operations
-console.log("Type coercion=>", 4 - "1");
-console.log("Type coercion=>", "3" - 1);
-console.log("Type coercion=>", "3" * 1);
-console.log("Type coercion=>", "3" / 2);
+console.log("Type coercion=>", 4 - "1"); //3 as number
+console.log("Type coercion=>", "3" - 1); //2 as number
+console.log("Type coercion=>", "3" * 1); // 3 as number
+console.log("Type coercion=>", "3" / 2); //1.5 as number
+
 
 // take value from user and print the value
 // let inputValue = prompt("Please enter value here...");
@@ -102,9 +103,9 @@ console.log("i value=>", i)// 24
 let j = 11, k = 22;
 let l = j + k + j++ + k++ + ++j + ++k
 
-console.log("j=", j);
-console.log("k=", k);
-console.log("l=", l);
+console.log("j=", j); // 13
+console.log("k=", k); //24
+console.log("l=", l); // 103
 
 // Q-6 Math all methods
 console.log("Math round, if value is less the 5 after decimal will round lower else in greater=>", Math.round(9.4), Math.round(9.5)); // 9 and 10
@@ -119,7 +120,7 @@ console.log("Math min, its use to filter minimun value =>", Math.min(34, 12, 22,
 console.log("Math random, its create random number in bewtween 0 to 1=>", Math.random());
 
 // Q-7 Create 6 digit rendon otp
-let otp = Math.floor(Math.random()*999999+100000);
+let otp = Math.floor(Math.random() * 999999 + 100000);
 console.log("otp=>", otp);
 
 // how to combile both array without using inbuild methods

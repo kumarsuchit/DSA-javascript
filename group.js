@@ -23,6 +23,18 @@ arrData.forEach((ele) => {
 })
 console.log("Expected output=>", obj);
 
+// usning normal for loop
+let obj2 = {};
+
+for (let i = 0; i < arrData.length; i++) {
+    let department = arrData[i]['dept'];
+    if (!obj2[department]) {
+        obj2[department] = [];
+    }
+    obj2[department].push(arrData[i]);
+}
+
+console.log("Expected output 2=>", obj);
 
 // make this question using of reduce
 
