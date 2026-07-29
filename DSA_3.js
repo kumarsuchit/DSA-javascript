@@ -103,4 +103,53 @@ function reverseNumber(number) {
 }
 let numberForReverse = 12345678;
 console.log(`Reverse of ${numberForReverse} is =>`, reverseNumber(numberForReverse));
-;
+
+// Q- check number is strong number or not
+// A Strong Number is a number whose sum of the factorials of its digits equals the number itself.
+// example => 145 = 1!+4!+5! = 1+24+120 =145
+
+function isStrongNumber(number) {
+    let sum = 0;
+    let orginalNumber = number;
+    while (number > 0) {
+        // get last value of number
+        let remender = number % 10;
+        // after getting last value remove last value
+        number = Math.floor(number / 10);
+        // now create factorial
+        let factorailVal = 1;
+        for (let i = remender; i >= 2; i--) {
+            factorailVal *= i;
+        }
+        sum += factorailVal;
+    }
+    if (orginalNumber === sum) return true;
+    else return false;
+};
+
+console.log("Is number 145 is strong number? ", isStrongNumber(145));
+console.log("Is number 135 is strong number? ", isStrongNumber(135));
+
+// Q- Gess the number, suppose computer take a number between 1 to 100 you have to gess the number
+
+function gessTheNumber() {
+    let randomNumber = Math.floor(Math.random() * 100) + 1;
+    let gess = 0;
+
+    while (gess != randomNumber) {
+        gess = Number(prompt("Please gess the number in between 1-100..."));
+        if (isNaN(gess) || gess <= 0 || gess > 100) {
+            console.log("Please enter number in between 1-100");
+        }
+
+        if (gess < randomNumber) {
+            console.log("Your gessed number is to low");
+        } else if (gess > randomNumber) {
+            console.log("Your gessed number is to high");
+        } else {
+            console.log("Congratulation 🎉 you gess the number", gess);
+            break;
+        }
+    }
+}
+gessTheNumber();
