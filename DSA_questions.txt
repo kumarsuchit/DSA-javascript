@@ -1,0 +1,162 @@
+1. Arrays
+
+    Find the second largest element in an array
+    Move all zeros to the end without changing order of other elements
+    Find the missing number in an array of 1 to n
+    Maximum Subarray Sum (Kadane's Algorithm)
+    Find the intersection of two arrays
+    Rotate an array by k positions
+    Find all pairs with a given sum
+    Kadane's variant: Maximum product subarray
+    Trapping Rain Water
+    Merge overlapping intervals
+
+2. Strings
+
+    Reverse a string / check palindrome
+    Check if two strings are anagrams
+    Find the first non-repeating character
+    Longest substring without repeating characters
+    Check if a string is a rotation of another
+    Group anagrams together
+    Longest common prefix
+    Implement strStr() (substring search)
+    Minimum window substring
+    Longest palindromic substring
+
+3. Searching
+
+    Binary Search (iterative + recursive)
+    Search in a rotated sorted array
+    Find first and last position of an element in sorted array
+    Find the square root of a number using binary search
+    Search in a 2D matrix
+    Find peak element
+    Median of two sorted arrays
+    Allocate minimum number of pages (binary search on answer)
+
+4. Sorting
+
+    Implement Bubble/Selection/Insertion Sort
+    Merge Sort
+    Quick Sort
+    Sort an array of 0s, 1s, and 2s (Dutch National Flag)
+    Find kth smallest/largest element
+    Count inversions in an array
+    Merge two sorted arrays in-place
+
+5. Recursion & Backtracking
+
+    Generate all subsets (Power Set)
+    Generate all permutations of a string
+    N-Queens problem
+    Sudoku Solver
+    Rat in a Maze
+    Word Search in a grid
+    Combination Sum
+    Palindrome Partitioning
+
+6. Linked List
+
+    Reverse a linked list (iterative + recursive)
+    Detect a cycle (Floyd's algorithm)
+    Find the middle of a linked list
+    Merge two sorted linked lists
+    Remove nth node from end
+    Check if a linked list is a palindrome
+    Add two numbers represented as linked lists
+    Clone a linked list with random pointers
+    Detect and remove a loop
+
+7. Stack & Queue
+
+    Valid Parentheses
+    Implement a stack using queues (and vice versa)
+    Next Greater Element
+    Min Stack (O(1) getMin)
+    Evaluate Reverse Polish Notation
+    Largest Rectangle in Histogram
+    Sliding Window Maximum
+    Implement a circular queue
+
+8. Trees
+
+    Inorder/Preorder/Postorder Traversal (recursive + iterative)
+    Level Order Traversal (BFS)
+    Maximum Depth of Binary Tree
+    Check if a tree is balanced
+    Lowest Common Ancestor
+    Diameter of a Binary Tree
+    Validate a Binary Search Tree
+    Serialize and Deserialize a Binary Tree
+    Convert sorted array to BST
+    Right/Left view of a binary tree
+    Boundary traversal of a binary tree
+
+9. Graphs
+
+    BFS and DFS traversal
+    Detect a cycle (directed and undirected graph)
+    Number of Islands
+    Topological Sort
+    Dijkstra's Algorithm (shortest path)
+    Union-Find / Disjoint Set
+    Minimum Spanning Tree (Kruskal's / Prim's)
+    Clone a graph
+    Course Schedule (cycle detection use case)
+    Bipartite graph check
+
+10. Dynamic Programming
+
+    Fibonacci (memoization vs tabulation)
+    0/1 Knapsack
+    Longest Common Subsequence
+    Longest Increasing Subsequence
+    Coin Change (min coins / number of ways)
+    Edit Distance
+    House Robber
+    Matrix Chain Multiplication
+    Subset Sum
+    Partition Equal Subset Sum
+    Unique Paths in a grid
+
+11. Hashing
+
+    Two Sum
+    Check for duplicates in an array
+    Find the first repeating element
+    Group anagrams
+    Subarray sum equals k
+    Longest consecutive sequence
+    Count distinct elements in every window of size k
+
+12. Greedy
+
+    Activity Selection Problem
+    Fractional Knapsack
+    Job Sequencing with Deadlines
+    Minimum number of platforms needed
+    Gas Station Problem
+    Huffman Encoding
+
+13. Bit Manipulation
+
+    Count set bits in a number
+    Find the single number in an array (all others appear twice)
+    Check if a number is a power of 2
+    Find XOR of numbers from 1 to n
+    Find two non-repeating numbers in an array
+    Count total set bits from 1 to n
+
+14. Heaps
+
+    Kth largest/smallest element in an array
+    Merge k sorted lists
+    Top k frequent elements
+    Median in a data stream
+    Implement a priority queue
+
+15. Tries
+    Implement Trie (insert, search, startsWith)
+    Word Search II (using Trie + backtracking)
+    Longest word with all prefixes present
