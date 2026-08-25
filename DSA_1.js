@@ -72,11 +72,11 @@ function checkLeapYear(year) {
 checkLeapYear(2024)
 
 // Q-4 Check strict and not strict equal 
-console.log("Is non-strict equal=>", 10 == '10');
-console.log("Is strict equal=>", 10 === '10');
+console.log("Is non-strict equal=>", 10 == '10'); // true
+console.log("Is strict equal=>", 10 === '10'); // false
 
-console.log("Is not non-strict equal=>", 10 != '10');
-console.log("Is not strict equal=>", 10 !== 10);
+console.log("Is not non-strict equal=>", 10 != '10'); // false
+console.log("Is not strict equal=>", 10 !== 10); // false
 
 // Q-5 Pre increment and Post increment && pre decrement post decrement
 
